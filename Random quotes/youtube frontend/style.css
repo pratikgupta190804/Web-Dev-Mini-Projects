@@ -1,0 +1,93 @@
+
+.youtube-icon {
+    width:140px;
+    height:50px;
+}
+.search-bar {
+    height:25px;
+    width:150px;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:left;
+    margin-right:20px;
+}
+.thumbnail {
+    width:100%;
+    margin-bottom:0px;
+}
+.profile-picture {
+    width:40px;
+    border-radius:25px;    
+}
+.video-title {
+    font-weight:500;
+    font-size:18px;
+    width:300px;
+    color:black;
+}
+.video-author,
+.video-info {
+    font-size:15px;
+    color:gray;
+} ii
+.video-author {
+    margin-bottom:0px;
+}
+.video-info {
+    margin-top:8px;
+}
+
+.channel-info {
+    display:inline-block;
+    vertical-align:top;
+    
+}
+.profile-layout {
+    display:inline-block;
+    vertical-align:top;
+    margin-top:18px;
+    margin-right:5px;
+}
+
+.youtube-div {
+    float:left;
+}
+.search-div {
+    text-align:center;
+    
+}
+#parent {
+   background-color:white;
+   white-space:nowrap;
+   overflow-x:auto;
+   overflow-y:hidden;
+   margin-left:0px;
+   margin-right:0px;
+   display:block;
+}
+.child1,
+.child {
+   background-color:lightgray;
+   margin:3px;
+   display:inline-block;
+   border-radius:5px;
+   text-align:center;
+   padding-left:15px;
+   padding-right:15px;
+}
+.child1 {
+   background-color:white;
+   font-weight:bold;
+   color: rgb(0, 0, 200);
+}
+.child1:active{
+   text-decoration: underline;
+}
+.youtube-profile-img {
+   width:50px;
+   height:50px;
+   border-radius:25px;
+}
+.youtube-profile-img-div {
+ display: inline-block;
+}

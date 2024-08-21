@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Agbalumo;
+  }
+  
+  html,body {
+    height: 100%;
+    width: 100%;
+  }
+  .main {
+    min-height:100vh;
+    width: 100%;
+    background-image: url("background image.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  section>nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  section>nav>a>img {
+    width:160px;
+    height:55px;
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section>div>input {
+    height:40px;
+    width:220px;
+    margin-top:10px;
+    padding-left:10px;
+    border: none;
+    border-radius:20px;
+    font-size:15px;
+    outline: none;
+  }
+  section>div>button {
+    height:40px;
+    width:80px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    color: blue;
+    background-color: white;
+    margin-left:10px;
+    margin-top:10px;
+    transition: 0.3s;
+  }
+  section>div>button:active {
+    background-color: blue;
+    color: white;
+  }
+  .pastweather {
+    text-decoration: none;
+    color:white;
+    margin-top:18px;
+    margin-right:10px;
+    font-size:16px;
+  }
+  section>nav>li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 18px;
+  }
+  section>nav>li::after {
+    content: ' ';
+    width: 0%;
+    height:3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  section>nav>li:hover::after {
+    width:100%;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    
+  }
+  head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .city-title {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .city-label {
+    font-weight: 200;
+    color: black;
+    margin-top:20px;
+    display: inline-block;
+  }  
+  .temp {
+    font-weight: 200;
+    font-size: 80px;
+    color: #81b9eb;
+    margin-top: 3px;
+    margin-bottom: 20px;
+  }
+  .desc {
+    display:flex;
+    justify-content: center;
+    color: #81b9eb;
+  }
+  .description {
+    font-weight: 400;
+    margin-left: 15px;
+    
+  }
+  .mid-info {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 100px;
+    border-radius: 10px;
+  }
+  .wind {
+    color: black;
+    font-weight:200;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .humidity {
+    color: black;
+    font-weight:200;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .wind-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .humidity-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .visibility {
+    color: black;
+    font-weight:200;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .air-pressure {
+    color: black;
+    font-weight:200;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .visibility-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  .pressure-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  
+  

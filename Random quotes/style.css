@@ -1,0 +1,53 @@
+* {
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .left-btn,
+  .right-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+  }
+  
+  .left-btn {
+    left: 10px;
+  }
+  
+  .right-btn {
+    right: 10px;
+  }
+  .left-btn,
+  .right-btn {
+    position: absolute;
+    top: 70%; /* Adjust the percentage to move the buttons down */
+    transform: translateY(-50%);
+    /* Other button styles */
+  }

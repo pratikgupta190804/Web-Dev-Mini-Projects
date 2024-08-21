@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightyellow;
+}
+img {
+    width: 350px;
+}   
+.btn-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}    
+.rock-btn {
+    width:100px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;;
+    margin-right: 10px;
+    transition: width 0.3s;
+}
+.rock-btn:active {
+    width:110px;
+    background-color: blue;
+}
+.paper-btn {
+    width:100px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: width 0.3s;
+}
+.paper-btn:active {
+    width:110px;
+    background-color: blue;
+}
+.scissors-btn {
+    width:100px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: width 0.3s;
+}
+.scissors-btn:active {
+    width:110px;
+    background-color: blue;
+}
+.fight{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#computer-img{
+    transform: scaleX(-1);
+}
+.show-winner{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.score-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.player-score{
+    margin-right: 20px;
+}
+.computer-score{
+    margin-left: 20px;
+}
+
+
+

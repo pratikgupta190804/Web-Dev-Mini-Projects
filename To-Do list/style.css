@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("notebook.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    position: absolute;
+    top: 30%;
+    width: 500px;
+    height: auto;
+    background: linear-gradient(45deg, #08001f, #30197d);
+    border-radius: 20px;
+    padding: 20px;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.add-column {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.add-column input {
+    width: 75%;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: cursive;
+    outline: white;
+}
+.add-button {
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mission-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mission-list li {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.fa-trash {
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fa-square-check {
+    color: green;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mission-list li.checked {
+    color: gray;
+    text-decoration: line-through;
+}
+.mission-list li.checked .fa-square-check {
+    color: gray;
+}
+
