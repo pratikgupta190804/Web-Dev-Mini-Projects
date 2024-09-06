@@ -44,10 +44,10 @@
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/web-dev-mini-projects.git</code></pre>
+    <pre><code>git clone https://github.com/pratikgupta190804/web-dev-mini-projects.git</code></pre>
   </li>
   <li>Navigate to the project folder of your choice:
-    <pre><code>cd project-folder</code></pre>
+    <pre><code>cd project-folder-name</code></pre>
   </li>
   <li>Open the <code>index.html</code> file in your browser to view the project.</li>
 </ol>
